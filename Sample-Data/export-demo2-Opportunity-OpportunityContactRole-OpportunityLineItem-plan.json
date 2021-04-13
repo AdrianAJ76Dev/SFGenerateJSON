@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export-demo2-Opportunitys.json"
+        ]
+    },
+    {
+        "sobject": "OpportunityContactRole",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-demo2-OpportunityContactRoles.json"
+        ]
+    },
+    {
+        "sobject": "OpportunityLineItem",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-demo2-OpportunityLineItems.json"
+        ]
+    }
+]

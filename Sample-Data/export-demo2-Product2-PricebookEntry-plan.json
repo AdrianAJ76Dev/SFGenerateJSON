@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export-demo2-Product2s.json"
+        ]
+    },
+    {
+        "sobject": "PricebookEntry",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-demo2-PricebookEntrys.json"
+        ]
+    }
+]

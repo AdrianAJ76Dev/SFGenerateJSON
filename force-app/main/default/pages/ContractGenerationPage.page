@@ -1,0 +1,29 @@
+<apex:page standardController="Opportunity" extensions="OpportunityJsonControllerExtension">
+    <p>Current Opportunity:</p>
+    <br/>
+    <apex:outputText value="ID: {!Opportunity.Id}"/><br/>
+    <apex:outputText value="Name: {!Opportunity.Name}"/><br/>
+    <apex:outputText value="Start Date: {!Opportunity.Start_Date__c}"/><br/>
+    <apex:outputText value="End Date: {!Opportunity.End_Date__c}"/><br/>
+    <apex:outputText value="Amount: {!Opportunity.Amount}"/><br/>
+    <br/>
+    <p>Please Select the Type of Contract You Wish to Generate:</p>
+    <apex:form>
+        <apex:selectRadio layout="pageDirection" value="{!TemplateChoice}">
+            <apex:selectOption itemLabel="K12 Contract" itemValue="0"/>
+            <apex:selectOption itemLabel="Higher Ed Contract" itemValue="1"/>
+            <apex:selectOption itemLabel="Custom Contract" itemValue="99" itemDisabled="true"/>
+        </apex:selectRadio>
+        <br/>
+        <p>You have selected # {!TemplateChoice}</p>
+        <br/>
+        <br/>
+        <apex:commandButton value="Generate" action="{!GenerateSFJSON}"/>
+        <br/>
+        <br/>
+        <apex:commandButton value="Opportunity" action="{!Back}"/>
+        <br/>
+        <br/>
+        <apex:outputText>{!OpportunityJson}</apex:outputText>
+    </apex:form>
+</apex:page>

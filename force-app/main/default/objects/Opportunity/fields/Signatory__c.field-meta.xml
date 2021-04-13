@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signatory__c</fullName>
+    <description>Listing of common (04-1-2021) signatories</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose a signatory for the contract</inlineHelpText>
+    <label>Signatory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jeremy Singer</fullName>
+                <default>false</default>
+                <label>Jeremy Singer</label>
+            </value>
+            <value>
+                <fullName>David C. Meade Jr.</fullName>
+                <default>false</default>
+                <label>David C. Meade Jr.</label>
+            </value>
+            <value>
+                <fullName>Tarlin Ray</fullName>
+                <default>false</default>
+                <label>Tarlin Ray</label>
+            </value>
+            <value>
+                <fullName>Doug Waugh</fullName>
+                <default>false</default>
+                <label>Doug Waugh</label>
+            </value>
+            <value>
+                <fullName>Aaron Lemmon-Strauss</fullName>
+                <default>false</default>
+                <label>Aaron Lemmon-Strauss</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

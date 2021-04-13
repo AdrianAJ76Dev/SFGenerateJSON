@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef1"
+            },
+            "OpportunityId": "@OpportunityRef1",
+            "IsPrimary": false,
+            "Role": "Invoice and Billing"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef2"
+            },
+            "OpportunityId": "@OpportunityRef1",
+            "IsPrimary": false,
+            "Role": "Signatory"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef3"
+            },
+            "OpportunityId": "@OpportunityRef1",
+            "IsPrimary": false,
+            "Role": "Technical Support"
+        }
+    ]
+}

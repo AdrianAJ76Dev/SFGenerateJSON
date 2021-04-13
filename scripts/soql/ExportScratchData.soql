@@ -1,0 +1,27 @@
+SELECT Id, Name, Type, BillingStreet, BillingCity, BillingState, BillingPostalCode, Description 
+FROM ACCOUNT
+
+SELECT Id, AccountId, FirstName, LastName, Phone, Email, Title, MailingStreet, MailingCity, MailingState, MailingPostalCode FROM Contact
+
+//  04.11.2021 Opportunity, OpportunityContactRoles, OpportunityLineItems
+SELECT Account.Name, Name, Type, Start_Date__c, End_Date__c, Signatory__c, Description, Amount, CloseDate, StageName,Pricebook2.Name, Pricebook2.Description,
+(SELECT ContactId, Contact.FirstName, Contact.LastName, Contact.Phone, Contact.Email, Contact.Title, Contact.MailingStreet, Contact.MailingCity, Contact.MailingState, Contact.MailingPostalCode, IsPrimary, Role FROM OpportunityContactRoles),
+(SELECT Product2Id, Start_Date__c, End_Date__c, Quantity, Description, ListPrice, UnitPrice, TotalPrice, PriceBookEntry.UnitPrice, PriceBookEntry.Name, PriceBookEntry.Product2.Family FROM OpportunityLineItems)
+FROM Opportunity
+
+//  04.11.2021 Pricebook2 & PricebookEntries
+SELECT Name, Description,
+(SELECT Pricebook2Id, Product2Id, ProductCode, UnitPrice, Product2.Name, Product2.Family, Product2.Description
+FROM PricebookEntries) 
+FROM Pricebook2
+
+//  04.11.2021 Products & PricebookEntries
+SELECT ID, Name, Description, Family, ProductCode,
+(SELECT ProductCode, UnitPrice
+FROM PricebookEntries)
+FROM Product2
+
+
+// SFDX Commands 
+sfdx force:data:tree:export --query [SOQL GOES HERE] --prefix OpKz-Export --outputdir sfdx-out --plan
+

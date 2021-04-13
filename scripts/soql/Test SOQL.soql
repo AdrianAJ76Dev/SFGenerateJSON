@@ -1,0 +1,3 @@
+SELECT Id, Name, AccountId, Amount, StageName,
+(SELECT Name, Quantity, ListPrice, UnitPrice, TotalPrice FROM Opportunity.OpportunityLineItems) 
+FROM Opportunity

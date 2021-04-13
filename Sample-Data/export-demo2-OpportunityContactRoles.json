@@ -1,0 +1,100 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef1"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v51.0/sobjects/Contact/003S000001VStMFIA1"
+                },
+                "FirstName": "Pamela",
+                "LastName": "James",
+                "Phone": "(917) 555-4321",
+                "Email": "pamela.james@wossamottauniversity.edu",
+                "Title": "CIO",
+                "MailingStreet": "2331 US Highway 53 South",
+                "MailingCity": "Frostbite Falls",
+                "MailingState": "Minnesota",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Technical Support",
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef2"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v51.0/sobjects/Contact/003S000001VStMEIA1"
+                },
+                "FirstName": "Cole",
+                "LastName": "Brown",
+                "Phone": "(917) 555-4320",
+                "Email": "cole.brown@wossamottauniversity.edu",
+                "Title": "President",
+                "MailingStreet": "2331 US Highway 53 South",
+                "MailingCity": "Frostbite Falls",
+                "MailingState": "Minnesota",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Signatory",
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef3"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v51.0/sobjects/Contact/003S000001VStMCIA1"
+                },
+                "FirstName": "Gina",
+                "LastName": "Waters-Payne",
+                "Phone": "(917) 555-4318",
+                "Email": "gina.waters-payne@wossamottauniversity.edu",
+                "Title": "Director of Accounting",
+                "MailingStreet": "2655 N Glenstone Ave",
+                "MailingCity": "Springfield",
+                "MailingState": "Missouri",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Invoice and Billing",
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef4"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v51.0/sobjects/Contact/003S000001VStMBIA1"
+                },
+                "FirstName": "Martin",
+                "LastName": "Payne",
+                "Phone": "(917) 555-4317",
+                "Email": "martin.payne@wossamottauniversity.edu",
+                "Title": "Dean",
+                "MailingStreet": "2331 US Highway 53 South",
+                "MailingCity": "Frostbite Falls",
+                "MailingState": "Minnesota",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Decision Maker",
+            "OpportunityId": "@OpportunityRef1"
+        }
+    ]
+}

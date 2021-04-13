@@ -1,0 +1,19 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef1"
+            },
+            "Name": "Wossamotta University - EPS SAS SSS Purchase",
+            "Type": "New Customer",
+            "Start_Date__c": "2021-04-01",
+            "End_Date__c": "2022-03-31",
+            "Amount": 120720,
+            "CloseDate": "2021-06-29",
+            "StageName": "Proposal/Price Quote",
+            "Description": "Testing Opportunity Creation out-of-the-box",
+            "Signatory__c": "Tarlin Ray"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "orgName": "Operation Kyuzo - Sample Data2",
+  "edition": "Developer",
+  "username": "Kikuchiyo@kurosawa.com",
+  "description": "Scratch Org created to import sample data from other scratch org",
+  "features": ["EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    }
+  }
+}

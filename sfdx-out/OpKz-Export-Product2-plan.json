@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "OpKz-Export-Product2s.json"
+        ]
+    }
+]

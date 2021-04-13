@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef1"
+            },
+            "Account": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v51.0/sobjects/Account/001S000001MU0TyIAL"
+                },
+                "Name": "Wossamotta University"
+            },
+            "Name": "Wossamotta University - EPS SAS SSS Purchase",
+            "Type": "New Customer",
+            "Start_Date__c": "2021-04-01",
+            "End_Date__c": "2022-03-31",
+            "Signatory__c": "Tarlin Ray",
+            "Description": "Testing Opportunity Creation out-of-the-box",
+            "Amount": 120720,
+            "CloseDate": "2021-06-29",
+            "StageName": "Proposal/Price Quote",
+            "Pricebook2": {
+                "attributes": {
+                    "type": "Pricebook2",
+                    "url": "/services/data/v51.0/sobjects/Pricebook2/01sS0000003lxBLIAY"
+                },
+                "Name": "Standard Price Book",
+                "Description": "Salesforce Standard Price Book"
+            }
+        }
+    ]
+}
