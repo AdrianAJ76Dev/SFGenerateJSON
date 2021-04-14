@@ -2,6 +2,8 @@ public with sharing class OpportunityJsonControllerExtension {
     private ApexPages.StandardController controller;
     private String OpID;
     private string JSONData;
+    private Decimal templateChoice;
+
 
     public OpportunityJsonControllerExtension(ApexPages.StandardController controller) {
         this.controller = controller;
@@ -12,25 +14,12 @@ public with sharing class OpportunityJsonControllerExtension {
         return new Pagereference('/'+ OpID);
     }
 
-    /*  04.06.2021
-    *   Get choice from VisualForce form
-    *   templateChoice variable
-    *   A getter/setter property for the controller
-    */
-    private Integer templateChoice=0; // 0 will be K12 Template
-    
-    //  Getter
-    public Integer getTemplateChoice()
+    public Decimal getTemplateChoice()
     {
+        templateChoice = getTemplateChoiceRec()[0].Contract_Template_Choice__c;
         return templateChoice;
     }
 
-    //  Setter
-    public void setTemplateChoice(Integer TemplateChoice)
-    {
-        templateChoice=TemplateChoice;
-    }
-    
     public String getOpportunityJson()
     {
         return JSONData;
@@ -46,8 +35,11 @@ public with sharing class OpportunityJsonControllerExtension {
         // Salesforce Object declarations
         Opportunity selOp;
         List<OpportunityContactRole> OpContacts;
+
+        // 04.13.2021 Take a look at sorting in the List<> Class
         List<OpportunityLineItem> ContractRiders;
         List<OpportunityLineItem> OpBudgetSchedule;
+ 
 
         // SOQL in functions to return data to SObjects
         selOp = GetSFData_Opportunity();
@@ -85,9 +77,15 @@ public with sharing class OpportunityJsonControllerExtension {
                 /*  04.01.2021 - Cheating here Hardcoding values!!! 
                 *   Must figure out how to pull the contact with signatory role here!!
                 *   Right now, I pull contact values below and there is more than one!
+                *   gen.writeStringField('ClientSignatory', 'Bullwinkle J. Moose');
+                *   gen.writeStringField('ClientTitle', 'Scholar/Magician');
                 */
-                gen.writeStringField('ClientSignatory', 'Bullwinkle J. Moose');
-                gen.writeStringField('ClientTitle', 'Scholar/Magician');
+                for (OpportunityContactRole contact : OpContacts) {
+                    if (contact.Role=='Signatory') {
+                        gen.writeStringField('ClientSignatory', contact.contact.Name);
+                        gen.writeStringField('ClientTitle', contact.contact.Title);                        
+                    }
+                }
 
                 // 04.01.2021 - I need to figure out how to add users and pull this info from there!
                 gen.writeStringField('Signatory', selOp.Signatory__c);
@@ -154,7 +152,21 @@ public with sharing class OpportunityJsonControllerExtension {
         gen.writeEndObject();
 
         JSONData=gen.getAsString();
+
         return null;
+    }
+
+    private List<OpportunityLineItem> getTemplateChoiceRec()
+    {
+        List<OpportunityLineItem> templateChoiceRec;
+        
+        templateChoiceRec = [SELECT
+        Contract_Template_Choice__c
+        FROM OpportunityLineItem
+        WHERE OpportunityLineItem.OpportunityId = :OpID
+        LIMIT 1];
+
+        return templateChoiceRec;
     }
 
     /*  Below is the SOQL needed to retrieve the data to be transformed into JSON
@@ -177,10 +189,6 @@ public with sharing class OpportunityJsonControllerExtension {
         FROM Opportunity
         WHERE Opportunity.Id=:OpID];
 
-        /*  REMEMBER: this pulls the ID from the URL!
-        WHERE Id = :ApexPages.currentPage().getParameters().get('Id')];
-        */
-
         return selOp;
     }
     
@@ -195,6 +203,7 @@ public with sharing class OpportunityJsonControllerExtension {
             Role,
             Contact.FirstName,
             Contact.LastName,
+            Contact.Name,
             Contact.Title,
             Contact.MailingStreet,
             Contact.MailingCity,
@@ -215,6 +224,7 @@ public with sharing class OpportunityJsonControllerExtension {
     {
         List<OpportunityLineItem> ContractRiders;
 
+        // 04.14.2021 See if I can control sorting to match user sorting on the opportunity
         ContractRiders = [SELECT
         Product2.Name,
         Product2.Family
