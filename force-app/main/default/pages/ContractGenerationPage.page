@@ -1,22 +1,28 @@
 <apex:page standardController="Opportunity" extensions="OpportunityJsonControllerExtension">
-    <p>Current Opportunity: {!Opportunity.Name}</p>
-    <br/>
     <apex:form>
-        <apex:selectRadio layout="pageDirection">
-            <apex:selectOption itemLabel="Standard" itemValue="0"/>
-            <apex:selectOption itemLabel="Amendment" itemValue="1"/>
-            <apex:selectOption itemLabel="Custom Contract" itemValue="99" itemDisabled="true"/>
-        </apex:selectRadio>
-        <br/>
-        <p>This Opportunity is Tied to this Template Choice Value # {!TemplateChoice}</p>
+        <apex:commandLink action="{!Back}" value="Back To Opportunity"/>
         <br/>
         <br/>
-        <apex:commandButton value="Generate" action="{!GenerateSFJSON}"/>
-        <br/>
-        <br/>
-        <apex:commandButton value="Opportunity" action="{!Back}"/>
-        <br/>
-        <br/>
-        <apex:outputText>{!OpportunityJson}</apex:outputText>
+        <apex:pageBlock title="Drafting Contract for {!Opportunity.Name}">
+            <apex:pageBlockSection id="template" title="Templates">                
+                <apex:commandLink reRender="selectedTemplate"> 
+                    <apex:selectList multiselect="false" value="{!Template}">
+                        <apex:selectOptions value="{!Templates}"/>
+                    </apex:selectList>
+                </apex:commandLink>
+            </apex:pageBlockSection>
+            <br/>
+            <apex:commandButton value="Generate" action="{!GenerateSFJSON}"/>
+        </apex:pageBlock>
     </apex:form>
+    <br/>
+    <apex:pageBlock id="selectedTemplate" title="Selected Template: {!Template}">
+    </apex:pageBlock>
+    <apex:outputPanel>Returned JSON: {!JSONData}</apex:outputPanel>
+    <br/>
+    <!-- 05.07.2021 How about putting the related list Notes & Attachements on this page?!!
+        so the user immediate sees the contract was generated!
+        Replace the below with that!
+    -->     
+    <apex:relatedList list="CombinedAttachments"/>
 </apex:page>
