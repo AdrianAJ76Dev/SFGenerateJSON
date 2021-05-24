@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "OpKz-Export2-Opportunitys.json"
+        ]
+    },
+    {
+        "sobject": "OpportunityContactRole",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "OpKz-Export2-OpportunityContactRoles.json"
+        ]
+    },
+    {
+        "sobject": "OpportunityLineItem",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "OpKz-Export2-OpportunityLineItems.json"
+        ]
+    }
+]

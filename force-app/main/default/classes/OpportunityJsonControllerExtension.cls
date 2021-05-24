@@ -68,24 +68,11 @@ public with sharing class OpportunityJsonControllerExtension {
 
         JSONGenerator gen;
 
-        // Institution Type is exported as a number instead of a string
-        /*
-        switch on selOp.Account.Type {
-            when 'K12 Organization' {
-                institutionType=0;
-            }
-            when 'Higher Ed Organization' {
-                institutionType=1;
-            }
-        }
-        */
-
         gen = JSON.createGenerator(true);
 
         // Start primary JSON object that encapsulates everything!
         gen.writeStartObject();
             // Create the Agreement JSON
-            gen.writeStringField('WordTemplate', Template); // 05.06.2021 - Explicitly selecting the Word template now
             gen.writeFieldName('Agreement');
             gen.writeStartObject();
                 gen.writeStringField('AccountName', selOp.Account.Name);
@@ -182,7 +169,7 @@ public with sharing class OpportunityJsonControllerExtension {
         JSONData=gen.getAsString();
 
         // Returning Blob data
-        //SaveContractToOpportunity(OpID, SendJSON(JSONData));
+        SaveContractToOpportunity(OpID, SendJSON(JSONData));
         // 05.04.2021 - Can I dump the blob before I return the page??
         return null;
     }
@@ -283,10 +270,21 @@ public with sharing class OpportunityJsonControllerExtension {
 
         HttpRequest req = new HttpRequest();
         string Url = 'https://cbgeneratecontracts.azurewebsites.net/DocumentGeneration/Agreement';
-            
+
+        /* 05.15.2021 - Possibly better idea:
+        *  Put the template name and the condition (1 page amendment say)
+        *  into the HEADER!
+        */        
         req.setHeader('Content-Type', 'application/json');
+        
         req.setEndpoint(Url);
         req.setMethod('POST');
+        /* 05.06.2021 - Explicitly selecting the Word template now
+        *  05.15.2021 - Possibly better idea:
+        *  Put the template name and the condition (1 page amendment say)
+        *  into the HEADER!
+        */
+        req.setHeader('ContractTemplate', Template);
         req.setBody(JSONData);
         req.setTimeout(20000);
                         
@@ -313,10 +311,5 @@ public with sharing class OpportunityJsonControllerExtension {
         v.versionData = file;
         v.FirstPublishLocationId=parentIDOp; // Is THIS where I connect the uploaded document to my opportunity?? 05.04.2021 - YES!
         insert v;
-
-        /* Do I need to explicitly create a new ContentDocumentLink object in order to associate this document with the opportunity?
-        *  OR 
-        *  Does assigning an opportunity ID to FirstPublishLocation do it for me?
-        */
     }
 }

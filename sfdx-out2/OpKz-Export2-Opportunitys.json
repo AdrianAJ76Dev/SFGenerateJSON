@@ -1,0 +1,63 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef1"
+            },
+            "Account": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v52.0/sobjects/Account/0011h00000oZiSfAAK"
+                },
+                "Name": "Rushmore Academy"
+            },
+            "Name": "Rushmore Academy Interest in My College",
+            "Type": "New Customer",
+            "Start_Date__c": "2021-05-14",
+            "End_Date__c": "2022-05-13",
+            "Signatory__c": "David C. Meade Jr.",
+            "Amount": 2037.5,
+            "CloseDate": "2021-09-06",
+            "StageName": "Proposal/Price Quote",
+            "Pricebook2": {
+                "attributes": {
+                    "type": "Pricebook2",
+                    "url": "/services/data/v52.0/sobjects/Pricebook2/01s1h000002A7ZdAAK"
+                },
+                "Name": "Standard Price Book",
+                "Description": "Salesforce Standard Price Book"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef2"
+            },
+            "Account": {
+                "attributes": {
+                    "type": "Account",
+                    "url": "/services/data/v52.0/sobjects/Account/0011h00000oZiSNAA0"
+                },
+                "Name": "Wossamotta University"
+            },
+            "Name": "Wossamotta University - EPS SAS SSS Purchase",
+            "Type": "New Customer",
+            "Start_Date__c": "2021-05-14",
+            "End_Date__c": "2022-05-13",
+            "Signatory__c": "David C. Meade Jr.",
+            "Description": "Testing Opportunity Creation out-of-the-box",
+            "Amount": 43430,
+            "CloseDate": "2021-06-29",
+            "StageName": "Negotiation/Review",
+            "Pricebook2": {
+                "attributes": {
+                    "type": "Pricebook2",
+                    "url": "/services/data/v52.0/sobjects/Pricebook2/01s1h000002A7ZdAAK"
+                },
+                "Name": "Standard Price Book",
+                "Description": "Salesforce Standard Price Book"
+            }
+        }
+    ]
+}

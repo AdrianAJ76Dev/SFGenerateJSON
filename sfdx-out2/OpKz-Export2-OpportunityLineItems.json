@@ -1,0 +1,89 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OpportunityLineItem",
+                "referenceId": "OpportunityLineItemRef1"
+            },
+            "Start_Date__c": "2021-05-14",
+            "End_Date__c": "2022-05-13",
+            "Quantity": 1,
+            "ListPrice": 2037.5,
+            "UnitPrice": 2037.5,
+            "TotalPrice": 2037.5,
+            "PricebookEntry": {
+                "attributes": {
+                    "type": "PricebookEntry",
+                    "url": "/services/data/v52.0/sobjects/PricebookEntry/01u1h0000049n6ZAAQ"
+                },
+                "UnitPrice": 2037.5,
+                "Name": "Interest in My College",
+                "Product2": {
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v52.0/sobjects/Product2/01t1h000006mBVrAAM"
+                    },
+                    "Family": "Student Search Service"
+                }
+            },
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityLineItem",
+                "referenceId": "OpportunityLineItemRef2"
+            },
+            "Start_Date__c": "2021-05-06",
+            "End_Date__c": "2022-05-09",
+            "Quantity": 76000,
+            "Description": "SSS purchase",
+            "ListPrice": 0.47,
+            "UnitPrice": 0.47,
+            "TotalPrice": 35720,
+            "PricebookEntry": {
+                "attributes": {
+                    "type": "PricebookEntry",
+                    "url": "/services/data/v52.0/sobjects/PricebookEntry/01u1h0000049n6qAAA"
+                },
+                "UnitPrice": 0.47,
+                "Name": "Student Search - subscription",
+                "Product2": {
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v52.0/sobjects/Product2/01t1h000006mBVoAAM"
+                    },
+                    "Family": "Student Search Service"
+                }
+            },
+            "OpportunityId": "@OpportunityRef2"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityLineItem",
+                "referenceId": "OpportunityLineItemRef3"
+            },
+            "Start_Date__c": "2021-05-07",
+            "End_Date__c": "2022-05-06",
+            "Quantity": 1,
+            "ListPrice": 7710,
+            "UnitPrice": 7710,
+            "TotalPrice": 7710,
+            "PricebookEntry": {
+                "attributes": {
+                    "type": "PricebookEntry",
+                    "url": "/services/data/v52.0/sobjects/PricebookEntry/01u1h0000049n64AAA"
+                },
+                "UnitPrice": 7710,
+                "Name": "Enrollment Planning Service™ - Unlimited Subscription",
+                "Product2": {
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v52.0/sobjects/Product2/01t1h000006mBVqAAM"
+                    },
+                    "Family": "Enrollment Planning"
+                }
+            },
+            "OpportunityId": "@OpportunityRef2"
+        }
+    ]
+}

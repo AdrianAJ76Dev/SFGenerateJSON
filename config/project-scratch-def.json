@@ -1,8 +1,10 @@
 {
   "orgName": "Operation Kyuzo - Sample Data",
-  "edition": "Developer",
   "username": "KyuzoData@kurosawa.com",
-  "description": "Scratch Org with sample data similiar to what we have at College Board",
+  "adminEmail": "ajones@operation-kyuzo.org",
+  "edition": "Developer",
+  "description": "Scratch Org with sample data similiar for testing Operation Kyuzo Phase I",
+  "hasSampleData": false,
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {

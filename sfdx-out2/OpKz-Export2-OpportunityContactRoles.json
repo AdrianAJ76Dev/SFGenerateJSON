@@ -1,0 +1,148 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef1"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v52.0/sobjects/Contact/0031h00000c0AmSAAU"
+                },
+                "FirstName": "Regina",
+                "LastName": "Hunter",
+                "Phone": "(917) 555-4279",
+                "Email": "regina.hunter@rushmoreacademy.edu",
+                "Title": "CFO",
+                "MailingStreet": "10155 East Fwy",
+                "MailingCity": "Houston",
+                "MailingState": "Texas",
+                "MailingPostalCode": "77029"
+            },
+            "IsPrimary": false,
+            "Role": "Invoice and Billing",
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef2"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v52.0/sobjects/Contact/0031h00000c0AmTAAU"
+                },
+                "FirstName": "Maxine",
+                "LastName": "Shaw",
+                "Phone": "(917) 555-4278",
+                "Email": "maxine.shaw@rushmoreacademy.edu",
+                "Title": "CEO",
+                "MailingStreet": "10155 East Fwy",
+                "MailingCity": "Houston",
+                "MailingState": "Texas",
+                "MailingPostalCode": "77029"
+            },
+            "IsPrimary": false,
+            "Role": "Signatory",
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef3"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v52.0/sobjects/Contact/0031h00000c0AmWAAU"
+                },
+                "FirstName": "Karen",
+                "LastName": "Winter",
+                "Phone": "(917) 555-4238",
+                "Email": "karen.winter@rushmoreacademy.edu",
+                "Title": "CIO",
+                "MailingStreet": "10155 East Fwy",
+                "MailingCity": "Houston",
+                "MailingState": "Texas",
+                "MailingPostalCode": "77029"
+            },
+            "IsPrimary": false,
+            "Role": "Technical Support",
+            "OpportunityId": "@OpportunityRef1"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef4"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v52.0/sobjects/Contact/0031h00000c0AlIAAU"
+                },
+                "FirstName": "Martin",
+                "LastName": "Payne",
+                "Phone": "(917) 555-4317",
+                "Email": "martin.payne@wossamottauniversity.edu",
+                "Title": "King of C.R.E.A.M.",
+                "MailingStreet": "2331 US Highway 53 South",
+                "MailingCity": "Frostbite Falls",
+                "MailingState": "Minnesota",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Invoice and Billing",
+            "OpportunityId": "@OpportunityRef2"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef5"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v52.0/sobjects/Contact/0031h00000c0AlHAAU"
+                },
+                "FirstName": "Gina",
+                "LastName": "Waters-Payne",
+                "Phone": "(917) 555-4318",
+                "Email": "gina.waters-payne@wossamottauniversity.edu",
+                "Title": "Supreme Queen of C.R.E.A.M.",
+                "MailingStreet": "2655 N Glenstone Ave",
+                "MailingCity": "Springfield",
+                "MailingState": "Missouri",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Signatory",
+            "OpportunityId": "@OpportunityRef2"
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "OpportunityContactRoleRef6"
+            },
+            "Contact": {
+                "attributes": {
+                    "type": "Contact",
+                    "url": "/services/data/v52.0/sobjects/Contact/0031h00000c0AlGAAU"
+                },
+                "FirstName": "Cole",
+                "LastName": "Brown",
+                "Phone": "(917) 555-4320",
+                "Email": "cole.brown@wossamottauniversity.edu",
+                "Title": "Director of C.R.E.A.M.",
+                "MailingStreet": "2331 US Highway 53 South",
+                "MailingCity": "Frostbite Falls",
+                "MailingState": "Minnesota",
+                "MailingPostalCode": "56649"
+            },
+            "IsPrimary": false,
+            "Role": "Technical Support",
+            "OpportunityId": "@OpportunityRef2"
+        }
+    ]
+}
