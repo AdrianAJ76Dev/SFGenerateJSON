@@ -277,6 +277,10 @@ public with sharing class OpportunityJsonControllerExtension {
         */        
         req.setHeader('Content-Type', 'application/json');
         
+
+        /* 05.25.2021 Need to make all of this a "Make Long-Running Callouts" See 
+        * https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_continuation_overview.htm
+        */
         req.setEndpoint(Url);
         req.setMethod('POST');
         /* 05.06.2021 - Explicitly selecting the Word template now
@@ -287,7 +291,8 @@ public with sharing class OpportunityJsonControllerExtension {
         req.setHeader('ContractTemplate', Template);
         req.setBody(JSONData);
         req.setTimeout(20000);
-                        
+        
+        // 05.25.2021 This would go in a Callback function
         Http http = new Http();
         HttpResponse res = http.send(req);
 
