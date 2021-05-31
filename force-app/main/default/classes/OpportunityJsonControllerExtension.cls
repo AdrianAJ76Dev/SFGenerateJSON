@@ -2,8 +2,9 @@ public with sharing class OpportunityJsonControllerExtension {
     private ApexPages.StandardController controller;
     private String OpID;
     private String JSONData;
-    private String standardTemplateName;
-    private String imcTemplateName;
+
+    private String templateName;
+    private Contract_Type_Mapping__mdt contractTypeDescRec;
 
     public OpportunityJsonControllerExtension(ApexPages.StandardController controller) {
         this.controller = controller;
@@ -16,33 +17,39 @@ public with sharing class OpportunityJsonControllerExtension {
         return new Pagereference('/'+ OpID);
     }
 
-    public String Template{get;set;}
+    public String Template{
+        get{return templateName;}
+        set{
+            templateName = value;
+            //ContractTypeDesc='CONTRACT TYPE DESCRIPTION\nYou are using: ' + templateName;
+            
+            contractTypeDescRec=[
+                SELECT Contract_Type_Description__c
+                FROM Contract_Type_Mapping__mdt 
+                WHERE Word_Template__c =: templateName
+                LIMIT 1];
+                ContractTypeDesc = contractTypeDescRec.Contract_Type_Description__c;
+        }
+    }
     public String ContractName{get;set;}
+    public String ContractTypeDesc{
+        get {return ContractTypeDesc;}
+        set {ContractTypeDesc = value;}
+    }
     public String getJSONData(){return JSONData;}
 
     //  *************************************************************************************************************
-
-    public string getStandardTemplate(){
-        return standardTemplateName;
-    }
     
     public List<SelectOption> getTemplates() {
         List<SelectOption> Templates = new List<SelectOption>();
-        Templates.add(new SelectOption('K12-Template.dotx','Assessments'));
-        Templates.add(new SelectOption('HED-Template.dotx','Higher Ed'));
-        Templates.add(new SelectOption('IMC Subscription Agreement.dotx','IMC - Do not have a current SSS'));
-        Templates.add(new SelectOption('IMC Rider.dotx','IMC - Have a current SSS'));
-        Templates.add(new SelectOption('IMC Addendum.dotx','IMC - Have previous IMC agreement and a current SSS'));
+        List<Contract_Type_Mapping__mdt> contractMappings = [SELECT Label, Word_Template__c, Contract_Type_Description__c FROM Contract_Type_Mapping__mdt	ORDER BY Label ASC];
+
+        for (Contract_Type_Mapping__mdt contractMap : contractMappings) {
+            Templates.add(new SelectOption(contractMap.Word_Template__c, contractMap.Label));
+        }
         return Templates;
     }
 
-    public List<SelectOption> getIMCTemplates() {
-        List<SelectOption> imcTemplates = new List<SelectOption>();
-        imcTemplates.add(new SelectOption('IMC Subscription Agreement.dotx','IMC - Do not have a current SSS'));
-        imcTemplates.add(new SelectOption('IMC Rider.dotx','IMC - Have a current SSS'));
-        imcTemplates.add(new SelectOption('IMC Addendum.dotx','IMC - Have previous IMC agreement and a current SSS'));
-        return imcTemplates;
-    }
 
     public Pagereference GenerateSFJSON()
     {

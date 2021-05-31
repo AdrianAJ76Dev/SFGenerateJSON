@@ -26,6 +26,6 @@ public with sharing class TestOpExtController {
 
         //  Invoke the routines here?
         OpJsonExt.GenerateSFJSON();
-        OpJsonExt.getOpportunityJson();
+        OpJsonExt.getJSONData();
     }
 }

@@ -4,12 +4,16 @@
         <br/>
         <br/>
         <apex:pageBlock title="Drafting Contract for {!Opportunity.Name}">
-            <apex:pageBlockSection id="template" title="Templates">                
-                <apex:commandLink reRender="selectedTemplate"> 
+            <apex:pageBlockSection id="template" title="Templates" columns="2">                
+                <apex:commandLink reRender="selectedTemplate, contractTypeDesc"> 
                     <apex:selectList multiselect="false" value="{!Template}">
                         <apex:selectOptions value="{!Templates}"/>
                     </apex:selectList>
                 </apex:commandLink>
+                <apex:outputPanel id="contractTypeDesc">
+                    Determine which Template to use<br/>
+                    {!ContractTypeDesc}
+                </apex:outputPanel>
             </apex:pageBlockSection>
             <br/>
             <apex:commandButton value="Generate" action="{!GenerateSFJSON}"/>
@@ -18,7 +22,6 @@
     <br/>
     <apex:pageBlock id="selectedTemplate" title="Selected Template: {!Template}">
     </apex:pageBlock>
-    <apex:outputPanel>Returned JSON: {!JSONData}</apex:outputPanel>
     <br/>
     <!-- 05.07.2021 How about putting the related list Notes & Attachements on this page?!!
         so the user immediate sees the contract was generated!
