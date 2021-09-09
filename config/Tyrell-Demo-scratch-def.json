@@ -1,0 +1,25 @@
+{
+  "orgName": "Tyrell Corporation",
+  "username": "Eldon.Tyrell@Tyrellcorp.com",
+  "adminEmail": "ajones@Tyrellcorp.com",
+  "edition": "Enterprise",
+  "description": "Salesforce scratch org used to demo the Standard Contracts Drafting Web API code outside of College Board",
+  "hasSampleData": false,
+  "features": ["EnableSetPasswordInApi", "WorkThanksPref"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "workDotComSettings": {
+      "enableWorkThanksPref": true,
+      "enableProfileSkills": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    }
+  }
+}
+
