@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Nexus 6</label>
+    <protected>false</protected>
+    <values>
+        <field>Contract_Type_Description__c</field>
+        <value xsi:type="xsd:string">Tyrell Corporation Nexus 6 Replicant Services</value>
+    </values>
+    <values>
+        <field>Contract_Type__c</field>
+        <value xsi:type="xsd:string">Nexus 6 Contract</value>
+    </values>
+    <values>
+        <field>Word_Template__c</field>
+        <value xsi:type="xsd:string">Tyrell-N6-Template.dotx</value>
+    </values>
+</CustomMetadata>

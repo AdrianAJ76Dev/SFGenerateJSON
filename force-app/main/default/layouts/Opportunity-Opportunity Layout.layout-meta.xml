@@ -52,6 +52,10 @@
                 <behavior>Edit</behavior>
                 <field>Signatory__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Signatory_Title__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
