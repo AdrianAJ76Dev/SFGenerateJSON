@@ -1,0 +1,25 @@
+{
+  "orgName": "Tyrell Corporation 4",
+  "username": "Eldon.Tyrell@Tyrellcorp-4.com",
+  "adminEmail": "ajones@Tyrellcorp-4.com",
+  "edition": "Enterprise",
+  "description": "Salesforce scratch org used to test if declarative modifications are pushed to scratch org",
+  "hasSampleData": false,
+  "features": ["EnableSetPasswordInApi", "WorkThanksPref"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "workDotComSettings": {
+      "enableWorkThanksPref": true,
+      "enableProfileSkills": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    }
+  }
+}
+

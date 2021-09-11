@@ -38,6 +38,48 @@
                 <default>false</default>
                 <label>Aaron Lemmon-Strauss</label>
             </value>
+            <value>
+                <fullName>Dr. Eldon Tyrell</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dr. Eldon Tyrell</label>
+            </value>
+            <value>
+                <fullName>Hannibal Chew</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hannibal Chew</label>
+            </value>
+            <value>
+                <fullName>J.F. Sebastian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J.F. Sebastian</label>
+            </value>
+            <value>
+                <fullName>Leon Kowalski</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Leon Kowalski</label>
+            </value>
+            <value>
+                <fullName>Niander Wallace</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Niander Wallace</label>
+            </value>
+            <value>
+                <fullName>Rick Deckard</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rick Deckard</label>
+            </value>
+            <value>
+                <fullName>Sapper Morton</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sapper Morton</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -1,5 +1,5 @@
 <apex:page standardController="Opportunity" extensions="OpportunityJsonControllerExtension">
-    <apex:form>
+    <apex:form >
         <apex:commandLink action="{!Back}" value="Back To Opportunity"/>
         <br/>
         <br/>
