@@ -4,14 +4,19 @@
     <protected>false</protected>
     <values>
         <field>Contract_Type_Description__c</field>
-        <value xsi:type="xsd:string">Tyrell Corporation Nexus 9 Replicant Services</value>
+        <value xsi:type="xsd:string">Tyrell Corporation Nexus 9 Replicant Staffing™</value>
     </values>
     <values>
         <field>Contract_Type__c</field>
-        <value xsi:type="xsd:string">Nexus 9 Contract</value>
+        <value xsi:type="xsd:string">Nexus 9 Services</value>
+    </values>
+    <values>
+        <field>Word_Template_Desc__c</field>
+        <value xsi:type="xsd:string">Nexus 9 Agreement
+Tenured Professors</value>
     </values>
     <values>
         <field>Word_Template__c</field>
-        <value xsi:type="xsd:string">Tyrell-N9-Template.dotx</value>
+        <value xsi:type="xsd:string">Tyrell-Nexus-Agreement-Template.dotx</value>
     </values>
 </CustomMetadata>

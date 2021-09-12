@@ -7,18 +7,18 @@
         <label>None</label>
     </standardValue>
     <standardValue>
-        <fullName>Enrollment Planning</fullName>
+        <fullName>Nexus_6</fullName>
         <default>false</default>
-        <label>Enrollment Planning</label>
+        <label>Nexus 6 Replicant</label>
     </standardValue>
     <standardValue>
-        <fullName>Segment Analysis</fullName>
+        <fullName>Nexus_8</fullName>
         <default>false</default>
-        <label>Segment Analysis</label>
+        <label>Nexus 8 Replicant</label>
     </standardValue>
     <standardValue>
-        <fullName>Student Search Service</fullName>
+        <fullName>Nexus_9</fullName>
         <default>false</default>
-        <label>Student Search Service</label>
+        <label>Nexus 9 Replicant</label>
     </standardValue>
 </StandardValueSet>

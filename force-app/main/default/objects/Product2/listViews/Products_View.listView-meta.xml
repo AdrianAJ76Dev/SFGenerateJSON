@@ -5,6 +5,7 @@
     <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
     <columns>PRODUCT2.DESCRIPTION</columns>
     <columns>PRODUCT2.FAMILY</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
     <filterScope>Everything</filterScope>
     <label>Products View</label>
 </ListView>
