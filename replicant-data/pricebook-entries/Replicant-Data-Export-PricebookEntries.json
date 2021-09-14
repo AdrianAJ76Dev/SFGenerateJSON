@@ -1,0 +1,114 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef1"
+            },
+            "ProductCode": "N6HEDRA",
+            "UseStandardPrice": false,
+            "UnitPrice": 250000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef2"
+            },
+            "ProductCode": "N6HEDP_SD",
+            "UseStandardPrice": false,
+            "UnitPrice": 500000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef3"
+            },
+            "ProductCode": "N6HEDTA_SD",
+            "UseStandardPrice": false,
+            "UnitPrice": 400000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef4"
+            },
+            "ProductCode": "N8HEDP",
+            "UseStandardPrice": false,
+            "UnitPrice": 875000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef5"
+            },
+            "ProductCode": "N6HSG",
+            "UseStandardPrice": false,
+            "UnitPrice": 350000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef6"
+            },
+            "ProductCode": "N6HSM",
+            "UseStandardPrice": false,
+            "UnitPrice": 475000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef7"
+            },
+            "ProductCode": "N9HEDP",
+            "UseStandardPrice": false,
+            "UnitPrice": 995000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef8"
+            },
+            "ProductCode": "N8HEDTA",
+            "UseStandardPrice": false,
+            "UnitPrice": 575000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef9"
+            },
+            "ProductCode": "N6HSE",
+            "UseStandardPrice": false,
+            "UnitPrice": 400000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef10"
+            },
+            "ProductCode": "N6HEDTA",
+            "UseStandardPrice": false,
+            "UnitPrice": 450000,
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef11"
+            },
+            "ProductCode": "N9HEDTA_B",
+            "UseStandardPrice": false,
+            "UnitPrice": 725000,
+            "IsActive": true
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+SELECT Pricebook2Id, Product2Id, ProductCode, UseStandardPrice, UnitPrice, IsActive FROM PricebookEntry

@@ -1,0 +1,1 @@
+SELECT ID, Name, ProductCode, Description, Family, IsActive FROM Product2

@@ -1,0 +1,125 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref1"
+            },
+            "Name": "Nexus 6 - Residential Assistant",
+            "ProductCode": "N6HEDRA",
+            "Description": "Economy Dorm Residential Assistant",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref2"
+            },
+            "Name": "Nexus 6 (SD) - Professor",
+            "ProductCode": "N6HEDP_SD",
+            "Description": "Economy Professor\r\nRecommend that clients update to Nexus 8 or 9 Professors since this model will be discontinued.",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref3"
+            },
+            "Name": "Nexus 6 (SD) - Teaching Assistant",
+            "ProductCode": "N6HEDTA_SD",
+            "Description": "Economy Teaching Assistant\r\nOnly works with Nexus 6 Professors\r\nSoon to be discontinued (SD) along with Nexus 6 Professors",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref4"
+            },
+            "Name": "Nexus 8 - Professor",
+            "ProductCode": "N8HEDP",
+            "Description": "Nexus 8 model of college professor\r\nEncourage clients to upgrade to Nexus 9 model",
+            "Family": "Nexus_8",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref5"
+            },
+            "Name": "Nexus 6 (HS) - Gym Teacher",
+            "ProductCode": "N6HSG",
+            "Description": "Nexus 6 (HS) - only for high school.\r\nOld Nexus 6 combat replicants repurposed as gym teachers.",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref6"
+            },
+            "Name": "Nexus 6 (HS) - Math Teacher",
+            "ProductCode": "N6HSM",
+            "Description": "Nexus 6 (HS) - only for high schools",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref7"
+            },
+            "Name": "Nexus 9 - Professor",
+            "ProductCode": "N9HEDP",
+            "Description": "Newest model of college professor",
+            "Family": "Nexus_9",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref8"
+            },
+            "Name": "Nexus 8 - Teaching Assistant",
+            "ProductCode": "N8HEDTA",
+            "Description": "Newest model of Teaching Assistant\r\nWorks with Nexus 8 & 9 professors",
+            "Family": "Nexus_8",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref9"
+            },
+            "Name": "Nexus 6 (HS) - English Teacher",
+            "ProductCode": "N6HSE",
+            "Description": "Nexus 6 (HS) - only for high schools",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref10"
+            },
+            "Name": "Nexus 6 - Teaching Assistant",
+            "ProductCode": "N6HEDTA",
+            "Description": "Economy Teaching Assistant.\r\nWorks with Nexus 8 & 9 Professors",
+            "Family": "Nexus_6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref11"
+            },
+            "Name": "Nexus 9 - Teaching Assistant (Beta)",
+            "ProductCode": "N9HEDTA_B",
+            "Description": "Works with Nexus 9 professors\r\nThese models are still in Beta and client agrees to release all data gathered by Nexus 9 TAs (including student data) to The Tyrell Corporation. Once the Nexus 9 TAs are no longer in Beta, the institution can keep the data gathered private.",
+            "Family": "Nexus_9",
+            "IsActive": true
+        }
+    ]
+}

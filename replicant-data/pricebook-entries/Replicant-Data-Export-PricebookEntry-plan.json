@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "PricebookEntry",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Replicant-Data-Export-PricebookEntrys.json"
+        ]
+    }
+]

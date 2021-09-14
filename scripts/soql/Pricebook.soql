@@ -1,0 +1,1 @@
+SELECT ID, Description, IsStandard, Name, IsActive FROM Pricebook2

@@ -1,0 +1,3 @@
+SELECT Name, ProductCode, Description, Family, IsActive,
+(SELECT UnitPrice, Pricebook2Id, Product2Id, ProductCode, UseStandardPrice, IsActive FROM PricebookEntry)
+FROM Product2

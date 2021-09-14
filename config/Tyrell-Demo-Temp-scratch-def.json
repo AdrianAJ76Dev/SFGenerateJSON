@@ -1,7 +1,7 @@
 {
-  "orgName": "Tyrell Corporation 4",
-  "username": "Eldon.Tyrell@Tyrellcorp-4.com",
-  "adminEmail": "ajones@Tyrellcorp-4.com",
+  "orgName": "Tyrell Corporation-Temp2",
+  "username": "Eldon.Tyrell@Tyrellcorp-Temp2.com",
+  "adminEmail": "ajones@Tyrellcorp-Temp2.com",
   "edition": "Enterprise",
   "description": "Salesforce scratch org used to test if declarative modifications are pushed to scratch org",
   "hasSampleData": false,
