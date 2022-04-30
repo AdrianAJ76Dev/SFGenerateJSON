@@ -2,8 +2,8 @@
   "orgName": "Tyrell Corporation-Temp2",
   "username": "Eldon.Tyrell@Tyrellcorp-Temp2.com",
   "adminEmail": "ajones@Tyrellcorp-Temp2.com",
-  "edition": "Enterprise",
-  "description": "Salesforce scratch org used to test if declarative modifications are pushed to scratch org",
+  "edition": "Developer",
+  "description": "Salesforce scratch org used to test if I can recreate the scratch org after nearly a year",
   "hasSampleData": false,
   "features": ["EnableSetPasswordInApi", "WorkThanksPref"],
   "settings": {
