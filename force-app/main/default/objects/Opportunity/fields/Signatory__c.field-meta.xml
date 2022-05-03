@@ -14,70 +14,45 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Jeremy Singer</fullName>
-                <default>false</default>
-                <label>Jeremy Singer</label>
-            </value>
-            <value>
-                <fullName>David C. Meade Jr.</fullName>
-                <default>false</default>
-                <label>David C. Meade Jr.</label>
-            </value>
-            <value>
-                <fullName>Tarlin Ray</fullName>
-                <default>false</default>
-                <label>Tarlin Ray</label>
-            </value>
-            <value>
-                <fullName>Doug Waugh</fullName>
-                <default>false</default>
-                <label>Doug Waugh</label>
-            </value>
-            <value>
-                <fullName>Aaron Lemmon-Strauss</fullName>
-                <default>false</default>
-                <label>Aaron Lemmon-Strauss</label>
-            </value>
-            <value>
                 <fullName>Dr. Eldon Tyrell</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>Dr. Eldon Tyrell</label>
             </value>
             <value>
                 <fullName>Hannibal Chew</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>Hannibal Chew</label>
             </value>
             <value>
                 <fullName>J.F. Sebastian</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>J.F. Sebastian</label>
             </value>
             <value>
                 <fullName>Leon Kowalski</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>Leon Kowalski</label>
             </value>
             <value>
                 <fullName>Niander Wallace</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>Niander Wallace</label>
             </value>
             <value>
                 <fullName>Rick Deckard</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>Rick Deckard</label>
             </value>
             <value>
                 <fullName>Sapper Morton</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
+                <isActive>true</isActive>
                 <label>Sapper Morton</label>
             </value>
         </valueSetDefinition>

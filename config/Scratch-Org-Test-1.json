@@ -3,7 +3,7 @@
   "edition": "Developer",
   "username": "Kikuchiyo@kurosawa.com",
   "description": "Scratch Org created to import sample data from other scratch org",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi", "DebugApex"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true

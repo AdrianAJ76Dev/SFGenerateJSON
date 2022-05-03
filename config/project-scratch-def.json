@@ -5,7 +5,7 @@
   "edition": "Developer",
   "description": "Scratch Org with sample data similiar for testing Operation Kyuzo Phase I",
   "hasSampleData": false,
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi", "DebugApex"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true

@@ -5,7 +5,7 @@
   "edition": "Enterprise",
   "description": "Salesforce scratch org used to demo the Standard Contracts Drafting Web API code outside of College Board",
   "hasSampleData": false,
-  "features": ["EnableSetPasswordInApi", "WorkThanksPref"],
+  "features": ["EnableSetPasswordInApi", "WorkThanksPref", "DebugApex"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
