@@ -6,13 +6,5 @@
         "files": [
             "Replicant-Data-Export-Product2s.json"
         ]
-    },
-{
-        "sobject": "PricebookEntry",
-        "saveRefs": false,
-        "resolveRefs": true,
-        "files": [
-            "Replicant-Data-Export-PricebookEntrys.json"
-        ]
     }
 ]
