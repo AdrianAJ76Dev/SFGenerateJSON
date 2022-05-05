@@ -1,7 +1,7 @@
 {
-  "orgName": "Tyrell Corporation-Temp2",
-  "username": "Eldon.Tyrell@Tyrellcorp-Temp2.com",
-  "adminEmail": "ajones@Tyrellcorp-Temp2.com",
+  "orgName": "Tyrell Corporation",
+  "username": "Eldon.Tyrell@Tyrellcorp.com",
+  "adminEmail": "ajones@Tyrellcorp.com",
   "edition": "Developer",
   "description": "Salesforce scratch org used to test if I can recreate the scratch org after nearly a year",
   "hasSampleData": false,
