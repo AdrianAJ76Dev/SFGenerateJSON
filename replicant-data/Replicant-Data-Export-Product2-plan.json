@@ -12,7 +12,7 @@
         "saveRefs": false,
         "resolveRefs": true,
         "files": [
-            "Replicant-Data-Export-PricebookEntries.json"
+            "pricebook-entries/Replicant-Data-Export-PricebookEntries.json"
         ]
     }
 ]
