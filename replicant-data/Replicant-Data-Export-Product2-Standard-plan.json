@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Replicant-Data-Export-Product2s.json"
+        ]
+    },
+    {
+        "sobject": "PricebookEntry",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "pricebook-entries/Replicant-Data-Export-PricebookEntries-Standard.json"
+        ]
+    }
+]

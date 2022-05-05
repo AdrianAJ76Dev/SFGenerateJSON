@@ -6,10 +6,10 @@
                 "referenceId": "PricebookEntryRef1"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 250000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref1",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -17,10 +17,10 @@
                 "referenceId": "PricebookEntryRef2"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 500000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref2",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -28,10 +28,10 @@
                 "referenceId": "PricebookEntryRef3"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 400000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref3",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -39,10 +39,10 @@
                 "referenceId": "PricebookEntryRef4"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 875000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref4",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -50,10 +50,10 @@
                 "referenceId": "PricebookEntryRef5"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 350000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref5",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -61,10 +61,10 @@
                 "referenceId": "PricebookEntryRef6"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 475000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref6",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -72,10 +72,10 @@
                 "referenceId": "PricebookEntryRef7"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 995000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref7",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -83,10 +83,10 @@
                 "referenceId": "PricebookEntryRef8"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 575000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref8",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -94,10 +94,10 @@
                 "referenceId": "PricebookEntryRef9"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 400000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref9",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -105,10 +105,10 @@
                 "referenceId": "PricebookEntryRef10"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 450000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref10",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         },
         {
             "attributes": {
@@ -116,10 +116,10 @@
                 "referenceId": "PricebookEntryRef11"
             },
             "UseStandardPrice": false,
-            "UnitPrice": 725000,
+            "UnitPrice": 1,
             "IsActive": true,
             "Product2Id":"@Product2Ref11",
-            "Pricebook2Id":"01s1D000006ZulYQAS"
+            "Pricebook2Id":"01s1D000006Zt93QAC"
         }
     ]
 }
