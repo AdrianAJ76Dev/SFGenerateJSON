@@ -19,6 +19,6 @@ Nexus 6 soon to be discontinued.</value>
     </values>
     <values>
         <field>Word_Template__c</field>
-        <value xsi:type="xsd:string">Tyrell-Nexus-Agreement-Template.dotx</value>
+        <value xsi:type="xsd:string">Tyrell-Nexus-Six-Agreement-Template.dotx</value>
     </values>
 </CustomMetadata>

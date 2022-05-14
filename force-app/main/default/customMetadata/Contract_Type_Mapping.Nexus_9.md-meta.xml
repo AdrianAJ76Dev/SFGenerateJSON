@@ -17,6 +17,6 @@ Tenured Professors</value>
     </values>
     <values>
         <field>Word_Template__c</field>
-        <value xsi:type="xsd:string">Tyrell-Nexus-Agreement-Template.dotx</value>
+        <value xsi:type="xsd:string">Wallace-Nexus-Nine-Agreement-Template.dotx</value>
     </values>
 </CustomMetadata>
