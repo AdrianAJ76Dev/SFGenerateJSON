@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Word Template</label>
-    <length>40</length>
+    <length>50</length>
     <required>true</required>
     <type>Text</type>
     <unique>false</unique>
